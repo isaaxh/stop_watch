@@ -7,3 +7,5 @@ In this project I will be aiming to create an app that will have the following f
 - Reset the stop watch
 
 What New things I have learned completing this project:
+
+- function vs function() inside of addEventListener gives different results

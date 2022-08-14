@@ -5,13 +5,11 @@
 
 html {
   height: 50vh;
-  width: 100vw;
   color: #fff;
 }
 
 body {
   display: flex;
-  width: 100%;
   height: 100%;
   flex-direction: column;
   justify-content: center;
@@ -45,11 +43,15 @@ button {
   color: white;
   font-size: 1.3rem;
   padding: 0.5rem;
+  border-radius: 5px;
 }
 
 button:active {
   background-color: rgb(247, 203, 82);
   transform: scale(0.98);
+}
+button:hover {
+  background-color: rgb(247, 203, 82);
 }
 
 @media (max-width: 480px) {
@@ -63,5 +65,12 @@ button:active {
     width: 120px;
     height: 35px;
     font-size: 1rem;
+  }
+  button:hover {
+    background-color: transparent;
+  }
+  button:active {
+    background-color: rgb(247, 203, 82);
+    transform: scale(0.98);
   }
 }
