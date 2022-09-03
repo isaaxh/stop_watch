@@ -15,3 +15,5 @@ When using addEventListener and click event, the call back function should be ca
 - What is setTimeOut function.
 
 This function takes two arguments, the first is a callback function and the second argument is time. Basically the setTimeOut function calls the callback function in given time. In our case the callback function is called after 1000 ms or 1 sec.
+
+[LIVE DEMO](https://isaaxh.github.io/stop_watch)
